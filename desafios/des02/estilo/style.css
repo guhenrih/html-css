@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: -16px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0px 7px 20px 6px rgba(0, 0, 0, 0.26);
+}
+
+header > p > a {
+    text-decoration: none;
+    color: white;
+}
+
+header > p > a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 32px;
+}
+
+footer p {
+    padding: 2px;
+}
+
+footer p > a {
+    text-decoration: none;
+    color: white;
+}
+
+footer p > a:hover {
+    text-decoration: underline;
+}
